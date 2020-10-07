@@ -71,41 +71,44 @@
         <div class="container">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">Contato</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
             </div>
             <form id="contactForm" name="sentMessage" novalidate="novalidate">
                 <div class="row align-items-stretch mb-5">
                     <div class="col-md-6">
                         <div class="form-group">
-                            <input class="form-control" id="name" type="text" placeholder="Your Name *"
-                                required="required" data-validation-required-message="Please enter your name." />
+                            <input class="form-control" id="name" type="text" placeholder="Digite seu Nome*"
+                                required="required" data-validation-required-message="Por favor insira seu Nome." />
                             <p class="help-block text-danger"></p>
                         </div>
                         <div class="form-group">
-                            <input class="form-control" id="email" type="email" placeholder="Your Email *"
+                            <input class="form-control" id="email" type="email" placeholder="Digite seu Email*"
                                 required="required"
-                                data-validation-required-message="Please enter your email address." />
+                                data-validation-required-message="Por favor insira seu Email." />
                             <p class="help-block text-danger"></p>
                         </div>
                         <div class="form-group mb-md-0">
-                            <input class="form-control" id="phone" type="tel" placeholder="Your Phone *"
+                            <input class="form-control" id="phone" type="tel" placeholder="Digite seu Telefone*"
                                 required="required"
-                                data-validation-required-message="Please enter your phone number." />
+                                data-validation-required-message="Por favor insira seu Número de Telefone." />
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <br>
+                        <div class="form-group mb-md-0">
+                            <textarea class="form-control" id="message" placeholder="Digite sua Mensagem*" required="required"
+                                data-validation-required-message="Por favor insira sua Mensagem."></textarea>
                             <p class="help-block text-danger"></p>
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="form-group form-group-textarea mb-md-0">
-                            <textarea class="form-control" id="message" placeholder="Your Message *" required="required"
-                                data-validation-required-message="Please enter a message."></textarea>
-                            <p class="help-block text-danger"></p>
-                        </div>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d30885.17754959133!2d-57.491506!3d-14.619163000000002!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd2055a958e710e0!2sEscrit%C3%B3rio%20de%20Advocacia%20SLS%20Advogados%20Associados!5e0!3m2!1spt-BR!2sus!4v1602097167387!5m2!1spt-BR!2sus"
+                            width="600" height="360" frameborder="0" style="border:0;" allowfullscreen=""
+                            aria-hidden="false" tabindex="0"></iframe>
                     </div>
                 </div>
                 <div class="text-center">
                     <div id="success"></div>
-                    <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">Send
-                        Message</button>
+                    <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">Enviar</button>
                 </div>
             </form>
         </div>
